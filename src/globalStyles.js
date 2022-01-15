@@ -34,12 +34,19 @@ const GlobalStyle = createGlobalStyle`
          border-radius: .3rem;
          margin-top: 1.6rem;
   }
+
+  .uk-nav-primary>li.uk-active>a {
+    color: var(--color-accent)
+  }
   .uk-input{
     background-color: var(--color-secondary) !important;
     text-transform: uppercase;
     border: none;
     border-radius: .3rem;
 
+  }
+  .uk-active {
+    color: var(--color-accent) !important;
   }
 `;
 
