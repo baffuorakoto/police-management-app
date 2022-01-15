@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import UserProfile from "../components/UserProfile";
 
 const HeaderStyles = styled.div`
   .uk-navbar-container:not(.uk-navbar-transparent) {
@@ -47,7 +48,7 @@ const Header = () => {
               </div>
             </form>
           </div>
-          <div>Profile</div>
+          <UserProfile />
         </nav>
       </div>
     </HeaderStyles>

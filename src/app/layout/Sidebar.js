@@ -8,6 +8,7 @@ const SidebarStyles = styled.div`
   height: 70vh;
   padding-left: 2.5rem;
   padding-top: 8rem;
+  border-radius: 5px;
 
   .uk-nav-primary > li > a {
     color: white;
