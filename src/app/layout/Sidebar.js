@@ -36,7 +36,7 @@ const Sidebar = () => {
             <a href="#">Criminal Cases</a>
             <ul className="uk-nav-sub" data-uk-sub>
               <li>
-                <Link to="/criminal-case/case-new">Add case</Link>
+                <Link to="/criminal_case/new">Add case</Link>
                 {/* <a href="#">Add case</a> */}
               </li>
               <li>
@@ -53,7 +53,7 @@ const Sidebar = () => {
             <a href="#">Police Recruitments</a>
             <ul className="uk-nav-sub" data-uk-sub>
               <li>
-                <Link to="/criminal-case/case-new">Add new recruitment</Link>
+                <Link to="">Add new recruitment</Link>
                 {/* <a href="#">Add case</a> */}
               </li>
               <li>

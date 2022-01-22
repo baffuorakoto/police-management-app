@@ -51,7 +51,7 @@ const Signup = () => {
             />
           </div>
 
-          <button class="uk-button uk-button-primary uk-width-1-1 uk-margin-small-bottom">
+          <button className="uk-button uk-button-primary uk-width-1-1 uk-margin-small-bottom">
             Signup
           </button>
         </fieldset>

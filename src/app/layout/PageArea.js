@@ -1,6 +1,7 @@
 import React from "react";
 import { Route, Routes } from "react-router";
 import DashboardPage from "../../features/dashboard/DashboardPage";
+import AddCase from "../../features/criminal cases/AddCase";
 
 import styled from "styled-components";
 
@@ -14,6 +15,7 @@ const PageArea = () => {
     <PageAreaStyle>
       <Routes>
         <Route exact path="/" element={<DashboardPage />} />
+        <Route path="/criminal_case/new" element={<AddCase />} />
       </Routes>
     </PageAreaStyle>
   );

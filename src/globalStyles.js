@@ -4,7 +4,9 @@ const GlobalStyle = createGlobalStyle`
    :root {
     --color-primary:#08103e;
     --color-secondary:#394065 ;
+    --color-primary-shade: #1b2246;
     --color-accent: #86d4e6 ;
+    --color-accent-dark: #6baab8;
     --color-dark: #84889f;
     --color-white: #ffffff;
   }
@@ -31,8 +33,30 @@ const GlobalStyle = createGlobalStyle`
       font-weight: 900;
       font-size: 1.2rem;
       color: var(--color-primary); 
-         border-radius: .3rem;
-         margin-top: 1.6rem;
+      border-radius: .3rem;
+      margin-top: 1.6rem;
+      text-transform: uppercase;         
+  }
+  
+.uk-button-primary:hover {
+  background-color: var(--color-accent-dark);
+  color: var(--color-primary);
+
+}
+
+  h1 {
+    color: white;
+    text-transform: uppercase;
+
+    font-size: 1.8rem;
+    font-weight: bolder;
+  }
+  h2 {
+    color: white;
+    text-transform: uppercase;
+
+    font-size: 1.5rem;
+    font-weight: bolder;
   }
 
   .uk-nav-primary>li.uk-active>a {
